@@ -15,7 +15,7 @@ function NavBar(){
             </div>
             <div>
                 {/* I used the map method to parse the navlinks into the link elements */}
-                <ul className="mt-1 flex list-none justify-center text-blue-600 decoration-0">
+                <ul className="mt-1 flex list-none justify-center text-blue-600 decoration-0 max-sm:hidden">
                     {navLinks.map((Links)=>(
                         <a
                         key={Links.name}
